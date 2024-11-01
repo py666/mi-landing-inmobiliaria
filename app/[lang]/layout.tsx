@@ -1,37 +1,30 @@
-import { i18n } from '@/i18n.config'
 import { Inter } from 'next/font/google'
 import '../globals.css'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import LanguageSelector from '@/components/LanguageSelector'
 
 const inter = Inter({ subsets: ['latin'] })
 
-interface RootLayoutProps {
-  children: React.ReactNode;
-  params: {
-    lang: string;
-  };
-}
-
-export async function generateStaticParams() {
-  return i18n.locales.map(locale => ({ lang: locale }))
-}
-
-export default function RootLayout({ children, params }: RootLayoutProps) {
+export default function RootLayout({
+  children,
+  params
+}: {
+  children: React.ReactNode
+  params: { lang: string }
+}) {
   return (
-    <html lang={params.lang}>
+    <html lang={params.lang} suppressHydrationWarning>
       <head>
         <title>Casa de Campo en Pago de la Paja</title>
         <meta name="description" content="Exclusiva propiedad en Maldonado, Uruguay" />
       </head>
       <body className={inter.className}>
-        <WhatsAppButton />
-        {children}
+        <main className="relative min-h-screen">
+          <LanguageSelector />
+          <WhatsAppButton />
+          {children}
+        </main>
       </body>
     </html>
   )
 }
-
-export const metadata = {
-  title: 'Casa de Campo en Pago de la Paja',
-  description: 'Exclusiva propiedad en Maldonado, Uruguay',
-} 

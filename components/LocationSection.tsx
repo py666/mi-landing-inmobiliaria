@@ -6,12 +6,34 @@ interface LocationSectionProps {
     location: {
       title: string;
       subtitle: string;
-      address: string;
-      access: string;
-      transport: string;
-      services: string;
-      loadingText: string;
-      markerTitle: string;
+      pointsOfInterest: string;
+      direction: {
+        title: string;
+        value: string;
+      };
+      access: {
+        title: string;
+        value: string;
+      };
+      transport: {
+        title: string;
+        value: string;
+      };
+      services: {
+        title: string;
+        value: string;
+      };
+      distances: {
+        title: string;
+        items: {
+          laBarraManantiales: { name: string; time: string; };
+          joseIgnacio: { name: string; time: string; };
+          puntaDelEste: { name: string; time: string; };
+          sanCarlos: { name: string; time: string; };
+        };
+      };
+      loadingText?: string;
+      markerTitle?: string;
     };
   };
 }
@@ -21,17 +43,18 @@ export default function LocationSection({ dict }: LocationSectionProps) {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">{dict.location.title}</h2>
-          <p className="text-xl text-gray-600">{dict.location.subtitle}</p>
+          <h2 className="text-4xl font-bold mb-4">{dict?.location?.title}</h2>
+          <p className="text-xl text-gray-600">{dict?.location?.subtitle}</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           <div>
             <PropertyMap 
-              dict={{ 
+              dict={{
                 location: {
-                  loadingText: dict.location.loadingText,
-                  markerTitle: dict.location.markerTitle
+                  ...dict.location,
+                  loadingText: dict.location.loadingText || 'Cargando mapa...',
+                  markerTitle: dict.location.markerTitle || 'Ubicación de la propiedad'
                 }
               }} 
             />
@@ -39,15 +62,15 @@ export default function LocationSection({ dict }: LocationSectionProps) {
 
           <div className="space-y-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold mb-4">Puntos de Interés</h3>
+              <h3 className="text-2xl font-semibold mb-4">{dict?.location?.pointsOfInterest}</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/20 p-3 rounded-lg">
                     <FaMapMarkerAlt className="text-primary text-xl" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Dirección</h4>
-                    <p className="text-gray-600">{dict.location.address}</p>
+                    <h4 className="font-semibold">{dict?.location?.direction?.title}</h4>
+                    <p className="text-gray-600">{dict?.location?.direction?.value}</p>
                   </div>
                 </div>
 
@@ -56,8 +79,8 @@ export default function LocationSection({ dict }: LocationSectionProps) {
                     <FaRoute className="text-primary text-xl" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Accesos</h4>
-                    <p className="text-gray-600">{dict.location.access}</p>
+                    <h4 className="font-semibold">{dict?.location?.access?.title}</h4>
+                    <p className="text-gray-600">{dict?.location?.access?.value}</p>
                   </div>
                 </div>
 
@@ -66,8 +89,8 @@ export default function LocationSection({ dict }: LocationSectionProps) {
                     <FaBus className="text-primary text-xl" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Transporte</h4>
-                    <p className="text-gray-600">{dict.location.transport}</p>
+                    <h4 className="font-semibold">{dict?.location?.transport?.title}</h4>
+                    <p className="text-gray-600">{dict?.location?.transport?.value}</p>
                   </div>
                 </div>
 
@@ -76,32 +99,36 @@ export default function LocationSection({ dict }: LocationSectionProps) {
                     <FaStore className="text-primary text-xl" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Servicios Cercanos</h4>
-                    <p className="text-gray-600">{dict.location.services}</p>
+                    <h4 className="font-semibold">{dict?.location?.services?.title}</h4>
+                    <p className="text-gray-600">{dict?.location?.services?.value}</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold mb-4">Distancias</h3>
+              <h3 className="text-2xl font-semibold mb-4">{dict?.location?.distances?.title}</h3>
               <ul className="space-y-3">
-                <li className="flex justify-between items-center">
-                  <span>La Barra y Manantiales</span>
-                  <span className="font-semibold">10 min</span>
-                </li>
-                <li className="flex justify-between items-center">
-                  <span>José Ignacio</span>
-                  <span className="font-semibold">20 min</span>
-                </li>
-                <li className="flex justify-between items-center">
-                  <span>Punta del Este</span>
-                  <span className="font-semibold">30 min</span>
-                </li>
-                <li className="flex justify-between items-center">
-                  <span>San Carlos</span>
-                  <span className="font-semibold">5 min</span>
-                </li>
+                {dict?.location?.distances?.items && (
+                  <>
+                    <li className="flex justify-between items-center">
+                      <span>{dict.location.distances.items.laBarraManantiales.name}</span>
+                      <span className="font-semibold">{dict.location.distances.items.laBarraManantiales.time}</span>
+                    </li>
+                    <li className="flex justify-between items-center">
+                      <span>{dict.location.distances.items.joseIgnacio.name}</span>
+                      <span className="font-semibold">{dict.location.distances.items.joseIgnacio.time}</span>
+                    </li>
+                    <li className="flex justify-between items-center">
+                      <span>{dict.location.distances.items.puntaDelEste.name}</span>
+                      <span className="font-semibold">{dict.location.distances.items.puntaDelEste.time}</span>
+                    </li>
+                    <li className="flex justify-between items-center">
+                      <span>{dict.location.distances.items.sanCarlos.name}</span>
+                      <span className="font-semibold">{dict.location.distances.items.sanCarlos.time}</span>
+                    </li>
+                  </>
+                )}
               </ul>
             </div>
           </div>

@@ -1,82 +1,59 @@
-'use client'
+'use client';
 
-import { useState } from 'react';
-import { usePathname, useRouter } from 'next/navigation';
-import { i18n } from '@/i18n.config';
-import { FaGlobe, FaChevronDown } from 'react-icons/fa';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { FaGlobe } from 'react-icons/fa';
 
-const languageNames = {
-  es: {
-    name: 'Español',
-    flag: '🇪🇸',
-    shortName: 'ES'
-  },
-  en: {
-    name: 'English',
-    flag: '🇺🇸',
-    shortName: 'EN'
-  },
-  pt: {
-    name: 'Português',
-    flag: '🇧🇷',
-    shortName: 'PT'
-  }
-};
+const languages = [
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: 'pt', name: 'Português', flag: '🇧🇷' }
+];
 
 export default function LanguageSelector() {
+  const [mounted, setMounted] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const pathName = usePathname();
-  const router = useRouter();
+  const pathname = usePathname();
 
-  const currentLocale = pathName?.split('/')[1] || 'es';
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-  const redirectedPathName = (locale: string) => {
-    if (!pathName) return '/';
-    const segments = pathName.split('/');
-    segments[1] = locale;
-    return segments.join('/');
+  if (!mounted) {
+    return null;
+  }
+
+  const getCurrentLang = () => {
+    if (pathname.includes('/en')) return languages[1];
+    if (pathname.includes('/pt')) return languages[2];
+    return languages[0];
   };
 
   return (
-    <div className="fixed bottom-8 right-8 z-50">
+    <div className="fixed top-4 right-4 z-50">
       <div className="relative">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-full shadow-lg hover:bg-primary/90 transition-all duration-300 transform hover:scale-105"
+          className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-lg hover:bg-gray-50 transition-all duration-300"
         >
-          <FaGlobe className="text-xl" />
-          <span className="font-medium">
-            {languageNames[currentLocale as keyof typeof languageNames].shortName}
-          </span>
-          <FaChevronDown 
-            className={`transition-transform duration-300 ${
-              isOpen ? 'rotate-180' : ''
-            }`} 
-          />
+          <FaGlobe className="text-gray-600" />
+          <span className="font-medium">{getCurrentLang().flag}</span>
         </button>
 
         {isOpen && (
-          <div className="absolute bottom-full right-0 mb-2 bg-white rounded-lg shadow-xl overflow-hidden min-w-[160px]">
-            {i18n.locales.map(locale => {
-              const { name, flag } = languageNames[locale as keyof typeof languageNames];
-              return (
-                <button
-                  key={locale}
-                  onClick={() => {
-                    router.push(redirectedPathName(locale));
-                    setIsOpen(false);
-                  }}
-                  className={`w-full px-4 py-3 text-left hover:bg-gray-50 flex items-center gap-2 transition-colors
-                    ${locale === currentLocale 
-                      ? 'bg-gray-50 text-primary font-medium' 
-                      : 'text-gray-700'
-                    }`}
-                >
-                  <span className="text-xl">{flag}</span>
-                  <span>{name}</span>
-                </button>
-              );
-            })}
+          <div className="absolute top-full right-0 mt-2 bg-white rounded-lg shadow-xl py-2 w-48">
+            {languages.map((lang) => (
+              <Link
+                key={lang.code}
+                href={`/${lang.code}`}
+                className="w-full px-4 py-2 text-left hover:bg-gray-50 flex items-center gap-2 block"
+                onClick={() => setIsOpen(false)}
+              >
+                <span>{lang.flag}</span>
+                <span>{lang.name}</span>
+              </Link>
+            ))}
           </div>
         )}
       </div>

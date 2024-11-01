@@ -4,15 +4,38 @@ import { useEffect, useRef } from 'react';
 import Script from 'next/script';
 
 interface PropertyMapProps {
-  dict?: {
-    location?: {
+  dict: {
+    location: {
       loadingText?: string;
       markerTitle?: string;
+      title: string;
+      subtitle: string;
+      pointsOfInterest: string;
+      direction: {
+        title: string;
+        value: string;
+      };
+      access: {
+        title: string;
+        value: string;
+      };
+      transport: {
+        title: string;
+        value: string;
+      };
+      services: {
+        title: string;
+        value: string;
+      };
+      distances: {
+        title: string;
+        items: any;
+      };
     };
   };
 }
 
-const PropertyMap = ({ dict }: PropertyMapProps = {}) => {
+const PropertyMap = ({ dict }: PropertyMapProps) => {
   const mapRef = useRef<HTMLDivElement>(null);
   const location = { lat: -34.798603974645275, lng: -54.886729731300775 };
 
@@ -37,7 +60,7 @@ const PropertyMap = ({ dict }: PropertyMapProps = {}) => {
     new window.google.maps.Marker({
       position: location,
       map,
-      title: dict?.location?.markerTitle || 'Ubicación de la propiedad',
+      title: dict.location.markerTitle,
     });
   };
 
@@ -62,7 +85,7 @@ const PropertyMap = ({ dict }: PropertyMapProps = {}) => {
         style={{ background: '#f5f5f5' }}
       >
         <div className="h-full w-full flex items-center justify-center text-gray-500">
-          {dict?.location?.loadingText || 'Cargando mapa...'}
+          {dict.location.loadingText || 'Cargando mapa...'}
         </div>
       </div>
     </>

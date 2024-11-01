@@ -128,10 +128,44 @@
   "location": {
     "title": "Ubicación Privilegiada",
     "subtitle": "Descubre todo lo que te rodea en esta exclusiva zona",
-    "address": "Dirección",
-    "access": "Accesos",
-    "transport": "Transporte",
-    "services": "Servicios Cercanos",
+    "pointsOfInterest": "Puntos de Interés",
+    "direction": {
+      "title": "Dirección",
+      "value": "Pago de la Paja, entre Ruta 104 y Camino Eguzquiza, Maldonado"
+    },
+    "access": {
+      "title": "Accesos",
+      "value": "Fácil acceso desde vías principales"
+    },
+    "transport": {
+      "title": "Transporte",
+      "value": "Transporte público disponible"
+    },
+    "services": {
+      "title": "Servicios Cercanos",
+      "value": "Todos los servicios esenciales cerca"
+    },
+    "distances": {
+      "title": "Distancias",
+      "items": {
+        "laBarraManantiales": {
+          "name": "La Barra y Manantiales",
+          "time": "10 min"
+        },
+        "joseIgnacio": {
+          "name": "José Ignacio",
+          "time": "20 min"
+        },
+        "puntaDelEste": {
+          "name": "Punta del Este",
+          "time": "30 min"
+        },
+        "sanCarlos": {
+          "name": "San Carlos",
+          "time": "5 min"
+        }
+      }
+    },
     "loadingText": "Cargando mapa...",
     "markerTitle": "Ubicación de la propiedad"
   },

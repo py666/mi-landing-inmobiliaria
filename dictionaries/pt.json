@@ -127,13 +127,45 @@
   },
   "location": {
     "title": "Localização Privilegiada",
-    "subtitle": "Descubra o entorno exclusivo",
-    "address": "Localização",
-    "access": "Vias de Acesso",
-    "transport": "Transporte",
-    "services": "Serviços Próximos",
-    "loadingText": "Carregando mapa...",
-    "markerTitle": "Localização da propriedade"
+    "subtitle": "Descubra tudo ao redor desta área exclusiva",
+    "pointsOfInterest": "Pontos de Interesse",
+    "direction": {
+      "title": "Localização",
+      "value": "Pago de la Paja, entre Rota 104 e Caminho Eguzquiza, Maldonado"
+    },
+    "access": {
+      "title": "Rotas de Acesso",
+      "value": "Fácil acesso pelas vias principais"
+    },
+    "transport": {
+      "title": "Transporte",
+      "value": "Transporte público disponível"
+    },
+    "services": {
+      "title": "Serviços Próximos",
+      "value": "Todos os serviços essenciais nas proximidades"
+    },
+    "distances": {
+      "title": "Distâncias",
+      "items": {
+        "laBarraManantiales": {
+          "name": "La Barra e Manantiales",
+          "time": "10 min"
+        },
+        "joseIgnacio": {
+          "name": "José Ignacio",
+          "time": "20 min"
+        },
+        "puntaDelEste": {
+          "name": "Punta del Este",
+          "time": "30 min"
+        },
+        "sanCarlos": {
+          "name": "San Carlos",
+          "time": "5 min"
+        }
+      }
+    }
   },
   "contact": {
     "title": "Entre em Contato",
