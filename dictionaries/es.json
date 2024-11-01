@@ -1,0 +1,247 @@
+{
+  "hero": {
+    "title": "Casa de Campo en Pago de la Paja",
+    "subtitle": "Una propiedad excepcional en Maldonado, Uruguay"
+  },
+  "description": {
+    "title": "Descripción de la Propiedad",
+    "mainText": "Casa de Campo ideal para vivir todo el año en Pago de la Paja, Maldonado - Uruguay",
+    "location": "Ubicada en el encantador y pintoresco camino Pago de la Paja, entre la Ruta 104 y el Camino Eguzquiza, esta propiedad ofrece un acceso inmejorable a los destinos más atractivos de la región: a solo 10 minutos de La Barra y Manantiales, 20 minutos de José Ignacio, 30 minutos de Punta del Este, y a tan solo 5 minutos de San Carlos.",
+    "details": "La residencia principal de 400 m² se caracteriza por su excelente construcción y diseño pensado para el confort y la funcionalidad. Cuenta con dos amplias master suites con vestidor, una gran cocina equipada, espacioso living, comedor, toilette y dependencia de servicio. El área social se complementa con un parrillero, lavadero y una piscina, ofreciendo espacios ideales para disfrutar del entorno natural. Además, incluye un galpón/garaje de gran tamaño con capacidad para autos, herramientas y almacenamiento adicional, totalizando aproximadamente 700 m² construidos. En sus 5 hectáreas de terreno, esta chacra dispone de un hermoso tajamar, un camino de acceso arbolado y una gran variedad de frutales, creando un ambiente acogedor y en total armonía con la naturaleza. Esta propiedad es perfecta para quienes buscan la serenidad del campo sin renunciar a la proximidad de los principales puntos turísticos de Maldonado."
+  },
+  "features": {
+    "title": "Características Principales",
+    "bedrooms": "2 Dormitorios en Suite",
+    "bedroomsDescription": "Amplias habitaciones con vista al jardín",
+    "bathrooms": "3 Baños",
+    "bathroomsDescription": "Baños completos con acabados de lujo",
+    "garage": "Garaje - Galpón",
+    "garageDescription": "Con espacio adicional de almacenamiento",
+    "area": "400 m²",
+    "areaDescription": "Terreno amplio con jardín"
+  },
+  "gallery": {
+    "title": "Galería de Imágenes",
+    "images": {
+      "mainView": {
+        "title": "Vista Principal",
+        "description": "Vista frontal de la propiedad"
+      },
+      "pondView": {
+        "title": "Vista al Tajamar",
+        "description": "Hermosa vista reflejada en el tajamar"
+      },
+      "sideView": {
+        "title": "Vista Lateral",
+        "description": "Vista lateral de la casa"
+      },
+      "frontView": {
+        "title": "Frente",
+        "description": "Entrada principal de la propiedad"
+      },
+      "lateralView": {
+        "title": "Vista Costado",
+        "description": "Vista del costado de la propiedad"
+      },
+      "poolArea": {
+        "title": "Área de Piscina",
+        "description": "Piscina con área de descanso"
+      },
+      "kitchen": {
+        "title": "Cocina",
+        "description": "Cocina moderna totalmente equipada"
+      },
+      "kitchenDetail": {
+        "title": "Detalles de Cocina",
+        "description": "Detalles y acabados de la cocina"
+      },
+      "kitchenView": {
+        "title": "Vista de Cocina",
+        "description": "Vista completa de la cocina"
+      },
+      "fullKitchen": {
+        "title": "Cocina Completa",
+        "description": "Vista panorámica de la cocina"
+      },
+      "kitchenDining": {
+        "title": "Cocina y Comedor",
+        "description": "Espacio integrado para cocinar y compartir"
+      },
+      "mainDining": {
+        "title": "Comedor Principal",
+        "description": "Amplio espacio para reuniones familiares"
+      },
+      "diningArea": {
+        "title": "Área de Comedor",
+        "description": "Zona de comedor con luz natural"
+      },
+      "corridor": {
+        "title": "Corredor",
+        "description": "Pasillo con acceso a todas las áreas"
+      },
+      "livingArea": {
+        "title": "Sala de Estar",
+        "description": "Espacio acogedor para relajarse"
+      },
+      "garage": {
+        "title": "Garaje",
+        "description": "Amplio espacio para vehículos"
+      },
+      "mainLiving": {
+        "title": "Sala Principal",
+        "description": "Sala espaciosa y luminosa"
+      },
+      "livingRoom": {
+        "title": "Living",
+        "description": "Ambiente confortable y elegante"
+      },
+      "additionalLiving": {
+        "title": "Sala Adicional",
+        "description": "Espacio versátil para múltiples usos"
+      },
+      "masterBath": {
+        "title": "Baño Principal",
+        "description": "Baño con acabados de lujo"
+      },
+      "exteriorView": {
+        "title": "Vista Exterior",
+        "description": "Perspectiva exterior de la propiedad"
+      },
+      "additionalView": {
+        "title": "Vista Adicional",
+        "description": "Otra perspectiva de la propiedad"
+      },
+      "interiorView": {
+        "title": "Vista Interior",
+        "description": "Detalles interiores de la casa"
+      },
+      "finalDetails": {
+        "title": "Detalles Finales",
+        "description": "Acabados y detalles especiales"
+      }
+    }
+  },
+  "video": {
+    "title": "Recorrido Virtual",
+    "subtitle": "Conoce cada detalle de esta espectacular propiedad"
+  },
+  "location": {
+    "title": "Ubicación Privilegiada",
+    "subtitle": "Descubre todo lo que te rodea en esta exclusiva zona",
+    "address": "Dirección",
+    "access": "Accesos",
+    "transport": "Transporte",
+    "services": "Servicios Cercanos"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "info": "Información de Contacto"
+  },
+  "details": {
+    "title": "Características Detalladas",
+    "items": {
+      "neighborhood": {
+        "title": "Barrio",
+        "value": "Quinta de Medina"
+      },
+      "view": {
+        "title": "Vista",
+        "value": "Al campo"
+      },
+      "orientation": {
+        "title": "Orientación",
+        "value": "Norte"
+      },
+      "waterLevel": {
+        "title": "Nivel sobre el mar",
+        "value": "14 metros sobre el nivel del mar"
+      },
+      "terrainSurface": {
+        "title": "Superficie del terreno",
+        "value": "5 hectáreas"
+      },
+      "builtSurface": {
+        "title": "Superficie edificada",
+        "value": "700 m² aprox."
+      },
+      "bedrooms": {
+        "title": "Dormitorios",
+        "value": "2"
+      },
+      "bathrooms": {
+        "title": "Baños",
+        "value": "3"
+      },
+      "serviceBedroom": {
+        "title": "Dormitorio de servicio",
+        "value": "1"
+      },
+      "kitchen": {
+        "title": "Cocina",
+        "value": "Amplia y bien equipada"
+      },
+      "living": {
+        "title": "Living",
+        "value": "Sí"
+      },
+      "diningRoom": {
+        "title": "Comedor",
+        "value": "Sí"
+      },
+      "warehouse": {
+        "title": "Galpón",
+        "value": "Sí"
+      },
+      "pool": {
+        "title": "Piscina",
+        "value": "Sí"
+      }
+    }
+  },
+  "carousel": {
+    "kitchen": {
+      "title": "Cocina Moderna",
+      "description": "Cocina equipada con electrodomésticos de acero inoxidable"
+    },
+    "livingRoom": {
+      "title": "Sala Principal",
+      "description": "Espaciosa sala con vista al jardín"
+    },
+    "exterior": {
+      "title": "Vista Exterior",
+      "description": "Vista panorámica de la casa"
+    },
+    "bedroom": {
+      "title": "Dormitorio Principal",
+      "description": "Amplia habitación con pisos de madera"
+    },
+    "closet": {
+      "title": "Vestidor",
+      "description": "Walk-in closet con amplios espacios"
+    },
+    "pool": {
+      "title": "Piscina",
+      "description": "Hermosa piscina rodeada de jardines"
+    },
+    "hall": {
+      "title": "Hall",
+      "description": "Espacio versátil con iluminación natural"
+    },
+    "gallery": {
+      "title": "Galería",
+      "description": "Espacio ideal para entretenimiento"
+    },
+    "bathroom": {
+      "title": "Baño de Lujo",
+      "description": "Baño con acabados premium"
+    },
+    "diningRoom": {
+      "title": "Comedor Familiar",
+      "description": "Espacioso comedor con ambiente acogedor"
+    }
+  }
+} 

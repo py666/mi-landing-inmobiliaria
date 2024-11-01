@@ -1,0 +1,247 @@
+{
+  "hero": {
+    "title": "Luxury Country House in Pago de la Paja",
+    "subtitle": "An exceptional property in Maldonado, Uruguay"
+  },
+  "description": {
+    "title": "Property Overview",
+    "mainText": "Exclusive country house perfect for year-round living in Pago de la Paja, Maldonado - Uruguay",
+    "location": "Situated on the charming and picturesque Pago de la Paja road, between Route 104 and Eguzquiza Road, this property offers unparalleled access to the region's most attractive destinations: just 10 minutes from La Barra and Manantiales, 20 minutes from José Ignacio, 30 minutes from Punta del Este, and only 5 minutes from San Carlos.",
+    "details": "The 400 m² main residence showcases excellent construction and thoughtful design focused on comfort and functionality. It features two spacious master suites with walk-in closets, a fully equipped gourmet kitchen, expansive living room, dining room, powder room, and service quarters. The social area is complemented by a barbecue area, laundry room, and a swimming pool, offering ideal spaces to enjoy the natural surroundings."
+  },
+  "features": {
+    "title": "Key Features",
+    "bedrooms": "2 Master Suites",
+    "bedroomsDescription": "Spacious rooms with garden view",
+    "bathrooms": "3 Bathrooms",
+    "bathroomsDescription": "Full bathrooms with luxury finishes",
+    "garage": "Garage - Workshop",
+    "garageDescription": "With additional storage space",
+    "area": "400 m²",
+    "areaDescription": "Large plot with garden"
+  },
+  "gallery": {
+    "title": "Property Gallery",
+    "images": {
+      "mainView": {
+        "title": "Main View",
+        "description": "Front view of the property"
+      },
+      "pondView": {
+        "title": "Pond View",
+        "description": "Beautiful reflection in the pond"
+      },
+      "sideView": {
+        "title": "Side View",
+        "description": "Side view of the house"
+      },
+      "frontView": {
+        "title": "Front",
+        "description": "Main entrance of the property"
+      },
+      "lateralView": {
+        "title": "Lateral View",
+        "description": "Lateral view of the property"
+      },
+      "poolArea": {
+        "title": "Pool Area",
+        "description": "Pool with relaxation area"
+      },
+      "kitchen": {
+        "title": "Kitchen",
+        "description": "Fully equipped modern kitchen"
+      },
+      "kitchenDetail": {
+        "title": "Kitchen Details",
+        "description": "Kitchen details and finishes"
+      },
+      "kitchenView": {
+        "title": "Kitchen View",
+        "description": "Complete kitchen view"
+      },
+      "fullKitchen": {
+        "title": "Full Kitchen",
+        "description": "Panoramic view of the kitchen"
+      },
+      "kitchenDining": {
+        "title": "Kitchen and Dining",
+        "description": "Integrated space for cooking and sharing"
+      },
+      "mainDining": {
+        "title": "Main Dining Room",
+        "description": "Spacious area for family gatherings"
+      },
+      "diningArea": {
+        "title": "Dining Area",
+        "description": "Dining zone with natural light"
+      },
+      "corridor": {
+        "title": "Corridor",
+        "description": "Hallway with access to all areas"
+      },
+      "livingArea": {
+        "title": "Living Area",
+        "description": "Cozy space to relax"
+      },
+      "garage": {
+        "title": "Garage",
+        "description": "Spacious vehicle area"
+      },
+      "mainLiving": {
+        "title": "Main Living Room",
+        "description": "Spacious and bright living room"
+      },
+      "livingRoom": {
+        "title": "Living Room",
+        "description": "Comfortable and elegant environment"
+      },
+      "additionalLiving": {
+        "title": "Additional Living Room",
+        "description": "Versatile space for multiple uses"
+      },
+      "masterBath": {
+        "title": "Master Bathroom",
+        "description": "Bathroom with luxury finishes"
+      },
+      "exteriorView": {
+        "title": "Exterior View",
+        "description": "Exterior perspective of the property"
+      },
+      "additionalView": {
+        "title": "Additional View",
+        "description": "Another perspective of the property"
+      },
+      "interiorView": {
+        "title": "Interior View",
+        "description": "Interior details of the house"
+      },
+      "finalDetails": {
+        "title": "Final Details",
+        "description": "Special finishes and details"
+      }
+    }
+  },
+  "video": {
+    "title": "Virtual Tour",
+    "subtitle": "Experience every detail of this spectacular property"
+  },
+  "location": {
+    "title": "Prime Location",
+    "subtitle": "Discover the exclusive surroundings",
+    "address": "Location",
+    "access": "Access Routes",
+    "transport": "Transportation",
+    "services": "Nearby Amenities"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Your Message",
+    "send": "Send Inquiry",
+    "info": "Contact Information"
+  },
+  "details": {
+    "title": "Detailed Features",
+    "items": {
+      "neighborhood": {
+        "title": "Neighborhood",
+        "value": "Quinta de Medina"
+      },
+      "view": {
+        "title": "View",
+        "value": "Countryside"
+      },
+      "orientation": {
+        "title": "Orientation",
+        "value": "North"
+      },
+      "waterLevel": {
+        "title": "Sea Level",
+        "value": "14 meters above sea level"
+      },
+      "terrainSurface": {
+        "title": "Land Area",
+        "value": "5 hectares"
+      },
+      "builtSurface": {
+        "title": "Built Area",
+        "value": "700 m² approx."
+      },
+      "bedrooms": {
+        "title": "Bedrooms",
+        "value": "2"
+      },
+      "bathrooms": {
+        "title": "Bathrooms",
+        "value": "3"
+      },
+      "serviceBedroom": {
+        "title": "Service Bedroom",
+        "value": "1"
+      },
+      "kitchen": {
+        "title": "Kitchen",
+        "value": "Spacious and fully equipped"
+      },
+      "living": {
+        "title": "Living Room",
+        "value": "Yes"
+      },
+      "diningRoom": {
+        "title": "Dining Room",
+        "value": "Yes"
+      },
+      "warehouse": {
+        "title": "Warehouse",
+        "value": "Yes"
+      },
+      "pool": {
+        "title": "Swimming Pool",
+        "value": "Yes"
+      }
+    }
+  },
+  "carousel": {
+    "kitchen": {
+      "title": "Modern Kitchen",
+      "description": "Kitchen equipped with stainless steel appliances"
+    },
+    "livingRoom": {
+      "title": "Main Living Room",
+      "description": "Spacious living room with garden view"
+    },
+    "exterior": {
+      "title": "Exterior View",
+      "description": "Panoramic view of the house"
+    },
+    "bedroom": {
+      "title": "Master Bedroom",
+      "description": "Spacious room with wooden floors"
+    },
+    "closet": {
+      "title": "Walk-in Closet",
+      "description": "Spacious storage areas"
+    },
+    "pool": {
+      "title": "Swimming Pool",
+      "description": "Beautiful pool surrounded by gardens"
+    },
+    "hall": {
+      "title": "Hall",
+      "description": "Versatile space with natural lighting"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Perfect space for entertainment"
+    },
+    "bathroom": {
+      "title": "Luxury Bathroom",
+      "description": "Bathroom with premium finishes"
+    },
+    "diningRoom": {
+      "title": "Family Dining Room",
+      "description": "Spacious dining room with cozy atmosphere"
+    }
+  }
+} 
