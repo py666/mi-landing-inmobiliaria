@@ -18,7 +18,7 @@ export default async function Home({
   const dict = await getDictionary(lang);
 
   return (
-    <main className="min-h-screen">
+    <main>
       <ImageCarousel dict={dict} />
       <PropertyDescription dict={dict} />
       <ContactButton dict={dict} />
