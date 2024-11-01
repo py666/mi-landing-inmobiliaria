@@ -12,11 +12,12 @@ import LanguageSelector from '@/components/LanguageSelector';
 import ContactSection from '@/components/ContactSection';
 
 export default async function Home({
-  params: { lang }
+  params
 }: {
   params: { lang: Locale }
 }) {
-  const dict = await getDictionary(lang)
+  const lang = await Promise.resolve(params.lang);
+  const dict = await getDictionary(lang);
 
   return (
     <main className="min-h-screen relative bg-background text-text transition-colors duration-300">

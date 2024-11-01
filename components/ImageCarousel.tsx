@@ -107,7 +107,7 @@ export default function ImageCarousel({ dict }: ImageCarouselProps) {
       description: dict.carousel.bathroom.description
     },
     {
-      src: '/images/comedor.jpeg',
+      src: '/images/ima9.jpeg',
       title: dict.carousel.diningRoom.title,
       description: dict.carousel.diningRoom.description
     }

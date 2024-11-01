@@ -10,25 +10,17 @@ export async function generateStaticParams() {
   return i18n.locales.map(locale => ({ lang: locale }))
 }
 
-interface RootLayoutProps {
-  children: React.ReactNode;
-  params: {
-    lang: Locale;
-  };
-}
-
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params
-}: RootLayoutProps) {
+}: {
+  children: React.ReactNode
+  params: { lang: Locale }
+}) {
+  const lang = await Promise.resolve(params.lang);
+
   return (
-    <html lang={params.lang} suppressHydrationWarning>
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Casa de Campo en Pago de la Paja</title>
-        <meta name="description" content="Exclusiva propiedad en Maldonado, Uruguay" />
-      </head>
+    <html lang={lang} suppressHydrationWarning>
       <body className={inter.className}>
         <WhatsAppButton />
         {children}

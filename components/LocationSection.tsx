@@ -10,6 +10,8 @@ interface LocationSectionProps {
       access: string;
       transport: string;
       services: string;
+      loadingText: string;
+      markerTitle: string;
     };
   };
 }
@@ -25,7 +27,14 @@ export default function LocationSection({ dict }: LocationSectionProps) {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           <div>
-            <PropertyMap />
+            <PropertyMap 
+              dict={{ 
+                location: {
+                  loadingText: dict.location.loadingText,
+                  markerTitle: dict.location.markerTitle
+                }
+              }} 
+            />
           </div>
 
           <div className="space-y-8">
@@ -33,7 +42,9 @@ export default function LocationSection({ dict }: LocationSectionProps) {
               <h3 className="text-2xl font-semibold mb-4">Puntos de Interés</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <FaMapMarkerAlt className="text-primary text-xl mt-1" />
+                  <div className="bg-primary/20 p-3 rounded-lg">
+                    <FaMapMarkerAlt className="text-primary text-xl" />
+                  </div>
                   <div>
                     <h4 className="font-semibold">Dirección</h4>
                     <p className="text-gray-600">{dict.location.address}</p>
@@ -41,7 +52,9 @@ export default function LocationSection({ dict }: LocationSectionProps) {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <FaRoute className="text-primary text-xl mt-1" />
+                  <div className="bg-primary/20 p-3 rounded-lg">
+                    <FaRoute className="text-primary text-xl" />
+                  </div>
                   <div>
                     <h4 className="font-semibold">Accesos</h4>
                     <p className="text-gray-600">{dict.location.access}</p>
@@ -49,7 +62,9 @@ export default function LocationSection({ dict }: LocationSectionProps) {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <FaBus className="text-primary text-xl mt-1" />
+                  <div className="bg-primary/20 p-3 rounded-lg">
+                    <FaBus className="text-primary text-xl" />
+                  </div>
                   <div>
                     <h4 className="font-semibold">Transporte</h4>
                     <p className="text-gray-600">{dict.location.transport}</p>
@@ -57,7 +72,9 @@ export default function LocationSection({ dict }: LocationSectionProps) {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <FaStore className="text-primary text-xl mt-1" />
+                  <div className="bg-primary/20 p-3 rounded-lg">
+                    <FaStore className="text-primary text-xl" />
+                  </div>
                   <div>
                     <h4 className="font-semibold">Servicios Cercanos</h4>
                     <p className="text-gray-600">{dict.location.services}</p>

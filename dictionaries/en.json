@@ -131,7 +131,9 @@
     "address": "Location",
     "access": "Access Routes",
     "transport": "Transportation",
-    "services": "Nearby Amenities"
+    "services": "Nearby Amenities",
+    "loadingText": "Loading map...",
+    "markerTitle": "Property location"
   },
   "contact": {
     "title": "Contact Us",

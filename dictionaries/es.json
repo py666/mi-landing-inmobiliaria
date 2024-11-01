@@ -131,7 +131,9 @@
     "address": "Dirección",
     "access": "Accesos",
     "transport": "Transporte",
-    "services": "Servicios Cercanos"
+    "services": "Servicios Cercanos",
+    "loadingText": "Cargando mapa...",
+    "markerTitle": "Ubicación de la propiedad"
   },
   "contact": {
     "title": "Contáctanos",
