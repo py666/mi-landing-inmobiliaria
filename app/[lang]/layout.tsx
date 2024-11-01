@@ -10,17 +10,15 @@ export async function generateStaticParams() {
   return i18n.locales.map(locale => ({ lang: locale }))
 }
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
   params
 }: {
   children: React.ReactNode
   params: { lang: Locale }
 }) {
-  const lang = await Promise.resolve(params.lang);
-
   return (
-    <html lang={lang} suppressHydrationWarning>
+    <html lang={params.lang} suppressHydrationWarning>
       <body className={inter.className}>
         <WhatsAppButton />
         {children}
