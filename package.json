@@ -1,0 +1,45 @@
+{
+  "name": "mi-landing-inmobiliaria",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "3.11.0",
+    "@formatjs/intl-localematcher": "^0.5.7",
+    "@googlemaps/js-api-loader": "1.16.8",
+    "@radix-ui/react-slot": "1.1.0",
+    "@types/react-google-recaptcha": "2.1.9",
+    "@vercel/analytics": "1.1.1",
+    "@vercel/speed-insights": "1.0.2",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.1.1",
+    "negotiator": "^0.6.4",
+    "next": "15.0.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-google-recaptcha": "3.1.0",
+    "react-icons": "4.12.0",
+    "swiper": "11.0.5",
+    "tailwind-merge": "2.5.4"
+  },
+  "devDependencies": {
+    "@types/google.maps": "3.54.10",
+    "@types/negotiator": "^0.6.3",
+    "@types/node": "^20.17.6",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "@types/scheduler": "0.16.8",
+    "autoprefixer": "10.4.17",
+    "cross-env": "7.0.3",
+    "cssnano": "6.0.1",
+    "framer-motion": "^11.11.11",
+    "postcss": "8.4.35",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.3.3"
+  }
+}

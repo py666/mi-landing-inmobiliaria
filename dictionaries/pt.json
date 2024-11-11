@@ -1,0 +1,303 @@
+{
+  "nav": {
+    "home": "Início",
+    "gallery": "Galeria",
+    "features": "Características",
+    "location": "Localização",
+    "video": "Vídeo",
+    "contact": "Contato"
+  },
+  "features": {
+    "title": "Características Principais",
+    "bedrooms": {
+      "title": "2 Suítes Master",
+      "description": "Quartos espaçosos com vista para o jardim",
+      "value": "2"
+    },
+    "bathrooms": {
+      "title": "3 Banheiros",
+      "description": "Banheiros completos com acabamentos de luxo",
+      "value": "3"
+    },
+    "garage": {
+      "title": "Garagem - Galpão",
+      "description": "Com espaço adicional para armazenamento",
+      "value": "Sim"
+    },
+    "area": {
+      "title": "400 m²",
+      "description": "Terreno amplo com jardim",
+      "value": "400"
+    }
+  },
+  "carousel": {
+    "kitchen": {
+      "title": "Cozinha Moderna",
+      "description": "Cozinha totalmente equipada com acabamentos premium"
+    },
+    "livingRoom": {
+      "title": "Sala de Estar",
+      "description": "Espaço amplo e aconchegante para toda a família"
+    }
+  },
+  "gallery": {
+    "title": "Galeria de Fotos",
+    "subtitle": "Explore cada detalhe desta propriedade excepcional",
+    "images": {
+      "mainView": {
+        "src": "/images/casa-landing.jpeg",
+        "alt": "Vista principal",
+        "title": "Vista Principal",
+        "description": "Vista frontal da propriedade"
+      },
+      "pondView": {
+        "title": "Vista para o Lago",
+        "description": "Linda vista para o lago natural"
+      },
+      "kitchenDetail": {
+        "title": "Detalhes da Cozinha",
+        "description": "Acabamentos modernos"
+      },
+      "kitchenView": {
+        "title": "Vista da Cozinha",
+        "description": "Espaço integrado"
+      },
+      "fullKitchen": {
+        "title": "Cozinha Completa",
+        "description": "Totalmente equipada"
+      },
+      "kitchenDining": {
+        "title": "Área de Refeições",
+        "description": "Espaço para família"
+      },
+      "mainDining": {
+        "title": "Sala de Jantar",
+        "description": "Ambiente elegante"
+      },
+      "diningArea": {
+        "title": "Área de Jantar",
+        "description": "Integração perfeita"
+      },
+      "corridor": {
+        "title": "Corredor",
+        "description": "Acesso aos quartos"
+      },
+      "livingArea": {
+        "title": "Área de Estar",
+        "description": "Conforto e estilo"
+      },
+      "garage": {
+        "title": "Garagem",
+        "description": "Espaço para 2 carros"
+      },
+      "mainLiving": {
+        "title": "Sala Principal",
+        "description": "Ambiente sofisticado"
+      },
+      "livingRoom": {
+        "title": "Sala de Estar",
+        "description": "Conforto e elegância"
+      },
+      "additionalLiving": {
+        "title": "Sala Adicional",
+        "description": "Espaço versátil"
+      },
+      "masterBath": {
+        "title": "Banheiro Suíte",
+        "description": "Acabamentos luxuosos"
+      },
+      "exteriorView": {
+        "title": "Vista Externa",
+        "description": "Fachada moderna"
+      },
+      "additionalView": {
+        "title": "Vista Adicional",
+        "description": "Outros ângulos"
+      },
+      "interiorView": {
+        "title": "Vista Interna",
+        "description": "Detalhes internos"
+      },
+      "sideView": {
+        "title": "Vista Lateral",
+        "description": "Vista do lado da casa"
+      },
+      "frontView": {
+        "title": "Vista Frontal",
+        "description": "Entrada principal"
+      },
+      "lateralView": {
+        "title": "Vista do Lado",
+        "description": "Perspectiva lateral completa"
+      },
+      "poolArea": {
+        "title": "Área da Piscina",
+        "description": "Espaço de lazer ao ar livre"
+      },
+      "kitchen": {
+        "title": "Cozinha",
+        "description": "Cozinha moderna e equipada"
+      },
+      "finalDetails": {
+        "src": "/images/ima10.jpg",
+        "alt": "Detalhes finais",
+        "title": "Detalhes Finais",
+        "description": "Detalhes finais da propriedade"
+      }
+    }
+  },
+  "location": {
+    "title": "Localização",
+    "subtitle": "Localização privilegiada em Pago de la Paja",
+    "pointsOfInterest": "Pontos de Interesse",
+    "direction": {
+      "title": "Endereço",
+      "value": "Pago de la Paja, entre Ruta 104 e Caminho Eguzquiza, Maldonado"
+    },
+    "access": {
+      "title": "Acesso",
+      "value": "Fácil acesso às principais vias"
+    },
+    "transport": {
+      "title": "Transporte",
+      "value": "Transporte público próximo"
+    },
+    "services": {
+      "title": "Serviços",
+      "value": "Comércio e serviços nas proximidades"
+    },
+    "distances": {
+      "title": "Distâncias",
+      "items": {
+        "laBarraManantiales": {
+          "name": "La Barra - Manantiales",
+          "time": "15 min"
+        },
+        "joseIgnacio": {
+          "name": "José Ignacio",
+          "time": "25 min"
+        },
+        "puntaDelEste": {
+          "name": "Punta del Este",
+          "time": "20 min"
+        },
+        "sanCarlos": {
+          "name": "San Carlos",
+          "time": "10 min"
+        }
+      }
+    },
+    "loadingText": "Carregando mapa...",
+    "markerTitle": "Localização do imóvel"
+  },
+  "video": {
+    "title": "Tour Virtual",
+    "subtitle": "Conheça cada detalhe desta propriedade incrível",
+    "browserError": "Seu navegador não suporta a reprodução de vídeo"
+  },
+  "contact": {
+    "title": "Contato",
+    "name": "Nome",
+    "email": {
+      "title": "Email",
+      "value": "arturo.nieto@gmail.com"
+    },
+    "phone": {
+      "title": "Telefone",
+      "value": "+595 991 475 069"
+    },
+    "direction": {
+      "title": "Endereço",
+      "value": "Pago de la Paja, Maldonado"
+    },
+    "message": "Mensagem",
+    "send": "Enviar",
+    "info": "Informações de Contato",
+    "status": {
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem"
+    },
+    "validation": {
+      "nameRequired": "O nome é obrigatório",
+      "nameMinLength": "O nome deve ter pelo menos 2 caracteres",
+      "namePattern": "O nome só pode conter letras",
+      "emailRequired": "O email é obrigatório",
+      "emailInvalid": "Por favor, insira um email válido",
+      "messageRequired": "A mensagem é obrigatória",
+      "messageMinLength": "A mensagem deve ter pelo menos 10 caracteres",
+      "messageMaxLength": "A mensagem não pode exceder 500 caracteres"
+    }
+  },
+  "hero": {
+    "title": "Casa de Campo em Pago de la Paja",
+    "subtitle": "Uma propriedade única em um ambiente natural privilegiado"
+  },
+  "description": {
+    "title": "Descrição da Propriedade",
+    "mainText": "Casa de campo ideal para morar o ano todo em Pago de la Paja, Maldonado - Uruguai",
+    "location": "Localizada no charmoso e pitoresco caminho Pago de la Paja, entre a Rota 104 e o Caminho Eguzquiza, esta propriedade oferece acesso imbatível aos destinos mais atraentes da região: a apenas 10 minutos de La Barra e Manantiales, 20 minutos de José Ignacio, 30 minutos de Punta del Este, e apenas 5 minutos de San Carlos.",
+    "details": "A residência principal de 400 m² se caracteriza por sua excelente construção e design focado no conforto e funcionalidade. Conta com duas amplas suítes master com closet, uma grande cozinha equipada, sala de estar espaçosa, sala de jantar, lavabo e dependência de serviço. A área social é complementada por uma churrasqueira, lavanderia e piscina, oferecendo espaços ideais para desfrutar do entorno natural. Além disso, inclui uma grande garagem/galpão com capacidade para carros, ferramentas e armazenamento adicional, totalizando aproximadamente 700 m² construídos. Em seus 5 hectares de terreno, esta chácara dispõe de um belo lago, um caminho de acesso arborizado e uma grande variedade de árvores frutíferas, criando um ambiente acolhedor em total harmonia com a natureza. Esta propriedade é perfeita para quem busca a serenidade do campo sem abrir mão da proximidade dos principais pontos turísticos de Maldonado."
+  },
+  "details": {
+    "title": "Detalhes da Propriedade",
+    "items": {
+      "neighborhood": {
+        "title": "Bairro",
+        "value": "Quinta de Medina"
+      },
+      "view": {
+        "title": "Vista",
+        "value": "Para o campo"
+      },
+      "orientation": {
+        "title": "Orientação",
+        "value": "Norte"
+      },
+      "waterLevel": {
+        "title": "Nível do Mar",
+        "value": "14 metros acima do nível do mar"
+      },
+      "terrainSurface": {
+        "title": "Área do Terreno",
+        "value": "5 hectares"
+      },
+      "builtSurface": {
+        "title": "Área Construída",
+        "value": "700 m² aprox."
+      },
+      "bedrooms": {
+        "title": "Quartos",
+        "value": "2"
+      },
+      "bathrooms": {
+        "title": "Banheiros",
+        "value": "3"
+      },
+      "serviceBedroom": {
+        "title": "Quarto de Serviço",
+        "value": "1"
+      },
+      "kitchen": {
+        "title": "Cozinha",
+        "value": "Ampla e bem equipada"
+      },
+      "living": {
+        "title": "Sala de Estar",
+        "value": "Sim"
+      },
+      "diningRoom": {
+        "title": "Sala de Jantar",
+        "value": "Sim"
+      },
+      "warehouse": {
+        "title": "Galpão",
+        "value": "Sim"
+      },
+      "pool": {
+        "title": "Piscina",
+        "value": "Sim"
+      }
+    }
+  }
+}

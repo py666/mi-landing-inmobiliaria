@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-dark: #1A1A19;
+    --primary-green: #8B7355;
+    --secondary-green: #D4AF37;
+    --light-green: #F5F5F5;
+    --accent-gold: #FFD700;
+    --accent-bronze: #CD7F32;
+    --accent-silver: #C0C0C0;
+  }
+
+  body {
+    @apply bg-primary-dark text-light-green;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-light-green mb-8;
+  }
+
+  .section-subtitle {
+    @apply text-xl text-secondary-green mb-12;
+  }
+
+  .card {
+    @apply bg-primary-dark/50 p-6 rounded-lg shadow-md border border-secondary-green/20 hover:border-secondary-green/40 transition-all duration-300;
+  }
+
+  .icon-container {
+    @apply bg-secondary-green/20 p-3 rounded-lg text-secondary-green hover:bg-secondary-green/30 transition-colors;
+  }
+
+  .button {
+    @apply px-6 py-3 bg-secondary-green text-primary-dark font-semibold rounded-lg hover:bg-accent-gold transition-colors duration-300;
+  }
+
+  .input {
+    @apply w-full p-3 rounded-lg bg-primary-dark/50 border border-secondary-green/20 text-light-green focus:outline-none focus:border-secondary-green;
+  }
+
+  .link {
+    @apply text-secondary-green hover:text-accent-gold transition-colors;
+  }
+
+  /* Estilos específicos para cada sección */
+  .nav-link {
+    @apply text-secondary-green hover:text-light-green transition-colors;
+  }
+
+  .feature-card {
+    @apply bg-primary-dark/50 p-6 rounded-lg shadow-md hover:bg-primary-dark/70 border border-secondary-green/20 hover:border-secondary-green/40 transition-all;
+  }
+
+  .gallery-item {
+    @apply relative overflow-hidden rounded-lg shadow-lg hover:shadow-secondary-green/20 transition-all duration-300;
+  }
+
+  .contact-info {
+    @apply bg-primary-dark/50 p-6 rounded-lg shadow-md border border-secondary-green/20;
+  }
+
+  /* Estilos para la galería */
+  .thumbs-swiper .swiper-slide {
+    opacity: 0.4;
+    transition: opacity 0.3s;
+  }
+
+  .thumbs-swiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  /* Mejoras en la navegación del Swiper */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff !important;
+    background: rgba(0, 0, 0, 0.5);
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 20px !important;
+  }
+
+  .swiper-pagination-bullet {
+    background: #fff !important;
+    opacity: 0.5 !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1 !important;
+  }
+}

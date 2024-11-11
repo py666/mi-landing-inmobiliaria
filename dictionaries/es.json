@@ -1,0 +1,316 @@
+{
+  "hero": {
+    "title": "Casa de Campo en Pago de la Paja",
+    "subtitle": "Una propiedad única en un entorno natural privilegiado"
+  },
+  "carousel": {
+    "kitchen": {
+      "title": "Cocina Moderna",
+      "description": "Cocina totalmente equipada con acabados premium"
+    },
+    "livingRoom": {
+      "title": "Sala de Estar",
+      "description": "Espacio amplio y acogedor para toda la familia"
+    },
+    "exterior": {
+      "title": "Vista Exterior",
+      "description": "Diseño moderno y elegante"
+    },
+    "bedroom": {
+      "title": "Dormitorio Principal",
+      "description": "Amplio y luminoso"
+    }
+  },
+  "description": {
+    "title": "Descripción de la Propiedad",
+    "mainText": "Casa de Campo ideal para vivir todo el año en Pago de la Paja, Maldonado - Uruguay",
+    "location": "Ubicada en el encantador y pintoresco camino Pago de la Paja, entre la Ruta 104 y el Camino Eguzquiza, esta propiedad ofrece un acceso inmejorable a los destinos más atractivos de la región: a solo 10 minutos de La Barra y Manantiales, 20 minutos de José Ignacio, 30 minutos de Punta del Este, y a tan solo 5 minutos de San Carlos.",
+    "details": "La residencia principal de 400 m² se caracteriza por su excelente construcción y diseño pensado para el confort y la funcionalidad. Cuenta con dos amplias master suites con vestidor, una gran cocina equipada, espacioso living, comedor, toilette y dependencia de servicio. El área social se complementa con un parrillero, lavadero y una piscina, ofreciendo espacios ideales para disfrutar del entorno natural. Además, incluye un galpón/garaje de gran tamaño con capacidad para autos, herramientas y almacenamiento adicional, totalizando aproximadamente 700 m² construidos. En sus 5 hectáreas de terreno, esta chacra dispone de un hermoso tajamar, un camino de acceso arbolado y una gran variedad de frutales, creando un ambiente acogedor y en total armonía con la naturaleza. Esta propiedad es perfecta para quienes buscan la serenidad del campo sin renunciar a la proximidad de los principales puntos turísticos de Maldonado."
+  },
+  "features": {
+    "title": "Características de la Propiedad",
+    "subtitle": "Descubre todos los detalles de esta hermosa casa",
+    "items": {
+      "bedrooms": {
+        "title": "Dormitorios",
+        "description": "2 dormitorios en suite"
+      },
+      "bathrooms": {
+        "title": "Baños",
+        "description": "3 baños"
+      },
+      "garage": {
+        "title": "Garaje",
+        "description": "Espacio para 2 vehículos"
+      },
+      "area": {
+        "title": "Área",
+        "description": "400 m² construidos"
+      }
+    },
+    "description": [
+      "Casa moderna con amplios espacios e iluminación natural excepcional.",
+      "Diseño contemporáneo que combina funcionalidad y estética.",
+      "Acabados de primera calidad y materiales duraderos."
+    ]
+  },
+  "details": {
+    "title": "Detalles de la Propiedad",
+    "items": {
+      "neighborhood": {
+        "title": "Barrio",
+        "value": "Quinta de Medina"
+      },
+      "view": {
+        "title": "Vista",
+        "value": "Al campo"
+      },
+      "orientation": {
+        "title": "Orientación",
+        "value": "Norte"
+      },
+      "waterLevel": {
+        "title": "Nivel sobre el mar",
+        "value": "14 metros sobre el nivel del mar"
+      },
+      "terrainSurface": {
+        "title": "Superficie del terreno",
+        "value": "5 hectáreas"
+      },
+      "builtSurface": {
+        "title": "Superficie edificada",
+        "value": "700 m² aprox."
+      },
+      "bedrooms": {
+        "title": "Dormitorios",
+        "value": "2"
+      },
+      "bathrooms": {
+        "title": "Baños",
+        "value": "3"
+      },
+      "serviceBedroom": {
+        "title": "Dormitorio de servicio",
+        "value": "1"
+      },
+      "kitchen": {
+        "title": "Cocina",
+        "value": "Amplia y bien equipada"
+      },
+      "living": {
+        "title": "Living",
+        "value": "Sí"
+      },
+      "diningRoom": {
+        "title": "Comedor",
+        "value": "Sí"
+      },
+      "warehouse": {
+        "title": "Galpón",
+        "value": "Sí"
+      },
+      "pool": {
+        "title": "Piscina",
+        "value": "Sí"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Galería de Fotos",
+    "subtitle": "Explora cada detalle de esta excepcional propiedad",
+    "images": {
+      "mainView": {
+        "title": "Vista Principal",
+        "description": "Fachada principal de la casa"
+      },
+      "pondView": {
+        "title": "Vista al Lago",
+        "description": "Hermosa vista al lago natural"
+      },
+      "sideView": {
+        "title": "Vista Lateral",
+        "description": "Perspectiva lateral de la propiedad"
+      },
+      "frontView": {
+        "title": "Vista Frontal",
+        "description": "Entrada principal de la casa"
+      },
+      "lateralView": {
+        "title": "Vista Costado",
+        "description": "Vista lateral completa"
+      },
+      "poolArea": {
+        "title": "Área de Piscina",
+        "description": "Espacio de recreación exterior"
+      },
+      "kitchen": {
+        "title": "Cocina",
+        "description": "Cocina moderna y equipada"
+      },
+      "kitchenDetail": {
+        "title": "Detalles de Cocina",
+        "description": "Acabados de alta calidad"
+      },
+      "kitchenView": {
+        "title": "Vista de Cocina",
+        "description": "Perspectiva completa de la cocina"
+      },
+      "fullKitchen": {
+        "title": "Cocina Completa",
+        "description": "Vista integral de la cocina"
+      },
+      "kitchenDining": {
+        "title": "Comedor de Cocina",
+        "description": "Área de comedor integrada"
+      },
+      "mainDining": {
+        "title": "Comedor Principal",
+        "description": "Espacio formal para comidas"
+      },
+      "diningArea": {
+        "title": "Área de Comedor",
+        "description": "Zona de comedor adicional"
+      },
+      "corridor": {
+        "title": "Pasillo",
+        "description": "Corredor principal"
+      },
+      "livingArea": {
+        "title": "Sala de Estar",
+        "description": "Área social principal"
+      },
+      "garage": {
+        "title": "Garaje",
+        "description": "Espacio para vehículos"
+      },
+      "mainLiving": {
+        "title": "Sala Principal",
+        "description": "Sala de estar principal"
+      },
+      "livingRoom": {
+        "title": "Sala",
+        "description": "Espacio de entretenimiento"
+      },
+      "additionalLiving": {
+        "title": "Sala Adicional",
+        "description": "Espacio social secundario"
+      },
+      "masterBath": {
+        "title": "Baño Principal",
+        "description": "Baño de la suite principal"
+      },
+      "exteriorView": {
+        "title": "Vista Exterior",
+        "description": "Perspectiva exterior de la casa"
+      },
+      "additionalView": {
+        "title": "Vista Adicional",
+        "description": "Perspectiva alternativa"
+      },
+      "interiorView": {
+        "title": "Vista Interior",
+        "description": "Detalles interiores"
+      },
+      "finalDetails": {
+        "title": "Detalles Finales",
+        "description": "Acabados y detalles especiales"
+      }
+    }
+  },
+  "location": {
+    "title": "Ubicación",
+    "subtitle": "Ubicación privilegiada en Pago de la Paja",
+    "pointsOfInterest": "Puntos de Interés",
+    "direction": {
+      "title": "Dirección",
+      "value": "Pago de la Paja, entre Ruta 104 y Camino Eguzquiza, Maldonado"
+    },
+    "access": {
+      "title": "Acceso",
+      "value": "Fácil acceso a vías principales"
+    },
+    "transport": {
+      "title": "Transporte",
+      "value": "Transporte público cercano"
+    },
+    "services": {
+      "title": "Servicios",
+      "value": "Comercios y servicios en las cercanías"
+    },
+    "distances": {
+      "title": "Distancias",
+      "items": {
+        "laBarraManantiales": {
+          "name": "La Barra - Manantiales",
+          "time": "10 min"
+        },
+        "joseIgnacio": {
+          "name": "José Ignacio",
+          "time": "20 min"
+        },
+        "puntaDelEste": {
+          "name": "Punta del Este",
+          "time": "30 min"
+        },
+        "sanCarlos": {
+          "name": "San Carlos",
+          "time": "5 min"
+        }
+      }
+    },
+    "loadingText": "Cargando mapa...",
+    "markerTitle": "Ubicación de la propiedad"
+  },
+  "video": {
+    "title": "Tour Virtual",
+    "subtitle": "Experimenta cada detalle de esta increíble propiedad",
+    "browserError": "Su navegador no soporta la reproducción de video"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "info": "Información de Contacto",
+    "validation": {
+      "nameRequired": "El nombre es requerido",
+      "nameMinLength": "El nombre debe tener al menos 2 caracteres",
+      "namePattern": "Solo se permiten letras",
+      "emailRequired": "El email es requerido",
+      "emailInvalid": "Email inválido",
+      "messageRequired": "El mensaje es requerido",
+      "messageMinLength": "El mensaje debe tener al menos 10 caracteres",
+      "messageMaxLength": "El mensaje no puede exceder los 500 caracteres"
+    },
+    "status": {
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar el mensaje"
+    },
+    "recaptchaError": "Error: ReCAPTCHA site key no configurada",
+    "direction": {
+      "title": "Dirección",
+      "value": "Pago de la Paja, entre Ruta 104 y Camino Eguzquiza, Maldonado"
+    },
+    "phone": {
+      "title": "Teléfono",
+      "value": "+595 991 475 069"
+    },
+    "emailContact": {
+      "title": "Email",
+      "value": "arturo.nieto@gmail.com"
+    }
+  },
+  "whatsapp": {
+    "message": "Hola, me interesa la propiedad en Pago de la Paja"
+  },
+  "nav": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "features": "Características",
+    "location": "Ubicación",
+    "video": "Video",
+    "contact": "Contacto"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "features": "Features",
+    "location": "Location",
+    "video": "Video",
+    "contact": "Contact"
+  },
+  "features": {
+    "title": "Main Features",
+    "bedrooms": {
+      "title": "2 Master Suites",
+      "description": "Spacious rooms with garden view",
+      "value": "2"
+    },
+    "bathrooms": {
+      "title": "3 Bathrooms",
+      "description": "Complete bathrooms with luxury finishes",
+      "value": "3"
+    },
+    "garage": {
+      "title": "Garage - Warehouse",
+      "description": "With additional storage space",
+      "value": "Yes"
+    },
+    "area": {
+      "title": "400 m²",
+      "description": "Spacious land with garden",
+      "value": "400"
+    }
+  },
+  "carousel": {
+    "kitchen": {
+      "title": "Modern Kitchen",
+      "description": "Fully equipped kitchen with premium finishes"
+    },
+    "livingRoom": {
+      "title": "Living Room",
+      "description": "Spacious and cozy space for the whole family"
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Explore every detail of this exceptional property",
+    "images": {
+      "mainView": {
+        "title": "Main View",
+        "description": "Main facade of the house"
+      },
+      "pondView": {
+        "title": "Pond View",
+        "description": "Beautiful view of the natural pond"
+      },
+      "sideView": {
+        "title": "Side View",
+        "description": "Side perspective of the property"
+      },
+      "frontView": {
+        "title": "Front View",
+        "description": "Front facade details"
+      },
+      "lateralView": {
+        "title": "Lateral View",
+        "description": "Side angle of the house"
+      },
+      "poolArea": {
+        "title": "Pool Area",
+        "description": "Swimming pool and surroundings"
+      },
+      "kitchen": {
+        "title": "Kitchen",
+        "description": "Modern kitchen space"
+      },
+      "kitchenDetail": {
+        "title": "Kitchen Details",
+        "description": "Modern finishes"
+      },
+      "kitchenView": {
+        "title": "Kitchen View",
+        "description": "Integrated space"
+      },
+      "fullKitchen": {
+        "title": "Full Kitchen",
+        "description": "Fully equipped"
+      },
+      "kitchenDining": {
+        "title": "Kitchen and Dining",
+        "description": "Integrated dining area"
+      },
+      "mainDining": {
+        "title": "Main Dining Room",
+        "description": "Elegant dining space"
+      },
+      "diningArea": {
+        "title": "Dining Area",
+        "description": "Perfect integration"
+      },
+      "corridor": {
+        "title": "Corridor",
+        "description": "Access to bedrooms"
+      },
+      "livingArea": {
+        "title": "Living Area",
+        "description": "Comfort and style"
+      },
+      "garage": {
+        "title": "Garage",
+        "description": "Space for 2 cars"
+      },
+      "mainLiving": {
+        "title": "Main Living Room",
+        "description": "Sophisticated environment"
+      },
+      "livingRoom": {
+        "title": "Living Room",
+        "description": "Comfort and elegance"
+      },
+      "additionalLiving": {
+        "title": "Additional Living Room",
+        "description": "Versatile space"
+      },
+      "masterBath": {
+        "title": "Master Bathroom",
+        "description": "Luxurious finishes"
+      },
+      "exteriorView": {
+        "title": "Exterior View",
+        "description": "Modern facade"
+      },
+      "additionalView": {
+        "title": "Additional View",
+        "description": "Other angles"
+      },
+      "interiorView": {
+        "title": "Interior View",
+        "description": "Interior details"
+      },
+      "finalDetails": {
+        "title": "Final Details",
+        "description": "Finishing touches"
+      }
+    }
+  },
+  "location": {
+    "title": "Location",
+    "subtitle": "Privileged location in Pago de la Paja",
+    "pointsOfInterest": "Points of Interest",
+    "direction": {
+      "title": "Address",
+      "value": "Pago de la Paja, between Route 104 and Eguzquiza Road, Maldonado"
+    },
+    "access": {
+      "title": "Access",
+      "value": "Easy access to main roads"
+    },
+    "transport": {
+      "title": "Transport",
+      "value": "Public transport nearby"
+    },
+    "services": {
+      "title": "Services",
+      "value": "Shops and services in the vicinity"
+    },
+    "distances": {
+      "title": "Distances",
+      "items": {
+        "laBarraManantiales": {
+          "name": "La Barra - Manantiales",
+          "time": "10 min"
+        },
+        "joseIgnacio": {
+          "name": "José Ignacio",
+          "time": "20 min"
+        },
+        "puntaDelEste": {
+          "name": "Punta del Este",
+          "time": "30 min"
+        },
+        "sanCarlos": {
+          "name": "San Carlos",
+          "time": "5 min"
+        }
+      }
+    },
+    "loadingText": "Loading map...",
+    "markerTitle": "Property location"
+  },
+  "video": {
+    "title": "Virtual Tour",
+    "subtitle": "Experience every detail of this incredible property",
+    "browserError": "Browser error"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": {
+      "title": "Email",
+      "value": "arturo.nieto@gmail.com"
+    },
+    "message": "Message",
+    "send": "Send",
+    "info": "Contact Information",
+    "direction": {
+      "title": "Address",
+      "value": "Pago de la Paja, Maldonado"
+    },
+    "phone": {
+      "title": "Phone",
+      "value": "+595 991 475 069"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameMinLength": "Name must be at least 2 characters",
+      "namePattern": "Only letters are allowed",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email",
+      "messageRequired": "Message is required",
+      "messageMinLength": "Message must be at least 10 characters",
+      "messageMaxLength": "Message cannot exceed 500 characters"
+    }
+  },
+  "hero": {
+    "title": "Country House in Pago de la Paja",
+    "subtitle": "A unique property in a privileged natural setting"
+  },
+  "description": {
+    "title": "Property Description",
+    "mainText": "Ideal country house to live all year round in Pago de la Paja, Maldonado - Uruguay",
+    "location": "Located on the charming and picturesque Pago de la Paja road, between Route 104 and Eguzquiza Road, this property offers unbeatable access to the region's most attractive destinations: just 10 minutes from La Barra and Manantiales, 20 minutes from José Ignacio, 30 minutes from Punta del Este, and just 5 minutes from San Carlos.",
+    "details": "The 400 m² main residence is characterized by its excellent construction and design focused on comfort and functionality. It features two spacious master suites with dressing rooms, a large equipped kitchen, spacious living room, dining room, guest bathroom, and service quarters. The social area is complemented by a barbecue area, laundry room, and a swimming pool, offering ideal spaces to enjoy the natural surroundings. Additionally, it includes a large garage/warehouse with capacity for cars, tools, and additional storage, totaling approximately 700 m² of built area. On its 5 hectares of land, this farm has a beautiful pond, a tree-lined access road, and a wide variety of fruit trees, creating a welcoming environment in total harmony with nature. This property is perfect for those seeking countryside serenity without giving up proximity to Maldonado's main tourist spots."
+  },
+  "details": {
+    "title": "Property Details",
+    "items": {
+      "neighborhood": {
+        "title": "Neighborhood",
+        "value": "Quinta de Medina"
+      },
+      "view": {
+        "title": "View",
+        "value": "Countryside"
+      },
+      "orientation": {
+        "title": "Orientation",
+        "value": "North"
+      },
+      "waterLevel": {
+        "title": "Sea Level",
+        "value": "14 meters above sea level"
+      },
+      "terrainSurface": {
+        "title": "Land Area",
+        "value": "5 hectares"
+      },
+      "builtSurface": {
+        "title": "Built Area",
+        "value": "700 m² approx."
+      },
+      "bedrooms": {
+        "title": "Bedrooms",
+        "value": "2"
+      },
+      "bathrooms": {
+        "title": "Bathrooms",
+        "value": "3"
+      },
+      "serviceBedroom": {
+        "title": "Service Bedroom",
+        "value": "1"
+      },
+      "kitchen": {
+        "title": "Kitchen",
+        "value": "Spacious and well equipped"
+      },
+      "living": {
+        "title": "Living Room",
+        "value": "Yes"
+      },
+      "diningRoom": {
+        "title": "Dining Room",
+        "value": "Yes"
+      },
+      "warehouse": {
+        "title": "Warehouse",
+        "value": "Yes"
+      },
+      "pool": {
+        "title": "Swimming Pool",
+        "value": "Yes"
+      }
+    }
+  }
+}
